@@ -1,3 +1,5 @@
+import pandas as pd
+
 class SubjectConnections(object):
     def __init__(self, base_df, base_column_id):
         self.base_df = base_df
